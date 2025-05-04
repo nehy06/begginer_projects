@@ -22,6 +22,8 @@ def znamky(body):
 
 
 def main():
+    print("Vítejte ve známkovači.")
+    
     while True:
         try:
         
@@ -35,6 +37,7 @@ def main():
             
         pokracovani = input("Chcete hodnotit další test? ano/ne ").lower() 
         if pokracovani != 'ano':
+            print("Děkujeme za použití známkovače!")
             break
 # ----------------------------
 # MAIN
